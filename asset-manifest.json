@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/SLV-Industries/static/css/main.2442fe20.css",
-    "main.js": "/SLV-Industries/static/js/main.bcdbc4e4.js",
+    "main.js": "/SLV-Industries/static/js/main.7d2342c4.js",
     "static/media/slide-1.png": "/SLV-Industries/static/media/slide-1.a3fffb34f9a9873b7c90.png",
     "static/media/leaves-patter.jpg": "/SLV-Industries/static/media/leaves-patter.8b9a8a92c0045b709f1a.jpg",
     "index.html": "/SLV-Industries/index.html",
     "main.2442fe20.css.map": "/SLV-Industries/static/css/main.2442fe20.css.map",
-    "main.bcdbc4e4.js.map": "/SLV-Industries/static/js/main.bcdbc4e4.js.map"
+    "main.7d2342c4.js.map": "/SLV-Industries/static/js/main.7d2342c4.js.map"
   },
   "entrypoints": [
     "static/css/main.2442fe20.css",
-    "static/js/main.bcdbc4e4.js"
+    "static/js/main.7d2342c4.js"
   ]
 }

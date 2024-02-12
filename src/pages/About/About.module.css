@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10rem;
+}
+
+.img {
+    height: 44rem;
+    border-radius: var(--border-radius);
+}

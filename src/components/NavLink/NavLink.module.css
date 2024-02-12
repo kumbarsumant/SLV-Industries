@@ -1,0 +1,38 @@
+.navItem {
+    text-transform: uppercase;
+    padding: 0 3rem;
+}
+
+.navLink:link,
+.navLink:visited {
+    display: inline-block;
+    text-decoration: none;
+    font-family: var(--font-title);
+    color: var(--color-grey);
+    font-size: 1.4rem;
+    padding: 1rem 0rem;
+    font-weight: 600;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all 0.2s ease-in;
+}
+
+.navLink:hover,
+.navLink.active:hover {
+    color: var(--color-primary);
+}
+
+.navLink.active {
+    color: var(--color-primary-dark);
+    /* content: " ";
+    position: absolute;
+    height: 0.25rem;
+    bottom: 0;
+    left: 50%;
+    width: 2rem;
+    transform: translateX(-50%);
+    background-color: var(--color-primary); */
+}

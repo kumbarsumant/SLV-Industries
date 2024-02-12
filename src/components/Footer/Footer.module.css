@@ -1,0 +1,131 @@
+.footerContainer {
+    max-width: 114rem;
+    margin: 0 auto;
+}
+
+.logoContainer {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.logoLink:link,
+.logoLink:visited {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 2.5rem;
+    height: 100%;
+    color: var(--color-grey);
+}
+
+.logo {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoPrimary,
+.logoSecondary {
+    display: inline-block;
+}
+
+.logoPrimary {
+    color: var(--color-primary-dark);
+}
+
+.logoSecondary {
+    padding-left: 1rem;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 4rem;
+    margin-bottom: 4rem;
+}
+
+.column {
+    padding: 2rem;
+    flex-basis: 100%;
+}
+
+.headingFooter {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: grey;
+    margin-bottom: 2.5rem;
+}
+
+.linkContainer {
+    list-style: none;
+    padding-left: 1rem;
+}
+
+.linkItem {
+    margin-bottom: 1rem;
+}
+
+.linkItem a:link,
+.linkItem a:visited {
+    text-decoration: none;
+    color: var(--color-grey);
+    font-size: 1.4rem;
+}
+
+.linkItem a:hover {
+    color: var(--color-primary);
+}
+
+.iconLink:link,
+.iconLink:visited {
+    text-decoration: none;
+    color: var(--color-grey);
+    font-size: 3rem;
+}
+
+.contacContainerSub {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.iconContainer {
+    font-size: 2.4rem;
+    color: var(--color-primary-dark);
+}
+
+.details {
+    font-size: 1.4rem;
+    color: var(--color-grey);
+    line-height: 1.4;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.5rem;
+}
+
+.container a:link,
+.container a:visited {
+    text-decoration: none;
+    color: var(--color-primary-dark);
+}
+
+.container a:hover {
+    color: var(--color-primary);
+}
+
+.copy {
+    font-size: 1.2rem;
+    color: var(--color-grey);
+    display: block;
+    text-align: center;
+}

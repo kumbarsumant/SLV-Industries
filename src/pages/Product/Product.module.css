@@ -1,0 +1,32 @@
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    /* gap: 6rem; */
+}
+
+.row:not(:last-child) {
+    margin-bottom: 5rem;
+}
+
+.cardLink:link,
+.cardLink:visited {
+    display: block;
+    text-decoration: none;
+    width: calc((100% - 10rem) / 3);
+    box-shadow: 0.5rem 0 1rem rgba(0, 0, 0, 0.2);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    transition: all 0.2s;
+    /* border: 1px solid var(--color-grey); */
+    /* padding: 1rem; */
+}
+
+.cardLink:hover {
+    transform: scale(1.05);
+    /* box-shadow: 0.5rem 0 1rem rgba(0, 0, 0, 0.2); */
+}
+
+.cardLink:not(:last-child) {
+    margin-right: 4rem;
+}

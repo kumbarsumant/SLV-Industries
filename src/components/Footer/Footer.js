@@ -86,9 +86,9 @@ function Footer() {
                             <a href="\">
                                 <BsInstagram className={styles.icon} />
                             </a>
-                            <a href="\">
+                            {/* <a href="\">
                                 <BsYoutube className={styles.icon} />
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                 </div>
